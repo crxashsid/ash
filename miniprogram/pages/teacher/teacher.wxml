@@ -1,0 +1,85 @@
+<cu-custom bgColor="bg-gradual-red" isCustom="{{true}}">
+  <view slot="content">详细信息</view>
+</cu-custom>
+<scroll-view scroll-y="true" style="height:82vh;" lower-threshold="10" bindscrolltolower="scolltolowe">
+  <swiper class="screen-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="2000" duration="1000">
+    <swiper-item wx:for="{{swiperList}}" wx:key>
+      <image src="{{item.url}}" mode="aspectFill"></image>
+    </swiper-item>
+  </swiper>
+  <view class="bg-white cu-bar solid-bottom">
+    <!-- <view class="cu-avatar round xl margin" style="background-image:url({{teaInf.avatar}});"></view> -->
+    <image class="cu-avatar round xl margin" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576674327259&di=91122df606b75f0d4f7a905e996c4afe&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F46%2F21%2F58156b51cfb57_610.jpg" ></image>
+    <view class="text-lg box">郑志娴</view>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class='action'>
+      <text class="cuIcon-title text-blue"></text>教师简介
+    
+    
+    </view>
+  </view>
+  <view class="solids-bottom padding-xs flex align-center bg-white">
+    <view class="flex-sub">
+      <view class="padding">信息工程系，女，毕业于华侨大学计算机与科学技术系，福州大学软件工程硕士。
+        副教授，微软课程讲师，软件设计师，中德骨干教师培训班结业。
+        主要研究方向：前端开发，手机开发。</view>
+    </view>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class='action'>
+      <text class="cuIcon-title text-blue"></text>学习资料
+    
+    </view>
+  </view>
+  <view  wx:key class="solid-bottom" >
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <image class="cu-avatar round xs" src="https://upload.jianshu.io/users/upload_avatars/17578547/d480a6a4-ff6f-4940-a731-8572b208ea52?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240"></image>
+        <view class="content flex-sub" >
+          <view class="text-gray">狂奔的蜗牛_7197</view>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar bg-white"bindtap="clickGit1">
+      <text class="margin-left-xl  text-red">微信小程序之倒计时篇</text>
+    </view>
+  </view>
+  <view class="cu-list menu-avatar">
+    <view class="cu-item">
+      <image class="cu-avatar round xs" src="https://avatar.csdnimg.cn/7/F/A/3_chibimarukochan.jpg"></image>
+      <view class="content flex-sub">
+        <view class="text-gray">chibimarukochan </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-bar bg-white" bindtap="clickGit2">
+    <text class="margin-left-xl text-red">微信小程序之ColorUI篇</text>
+  </view>
+  <view class="cu-list menu-avatar">
+    <view class="cu-item">
+      <image class="cu-avatar round xs" src="https://avatar.csdnimg.cn/9/2/5/3_qq_37954086_1547111118.jpg"></image>
+      <view class="content flex-sub">
+        <view class="text-gray">MayanDev</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-bar bg-white" bindtap="clickGit3">
+    <text class="margin-left-xl text-red">微信小程序云开发之初体验（详细教程）篇</text>
+  </view>
+  <view class="cu-list menu-avatar">
+    <view class="cu-item">
+      <image class="cu-avatar round xs" src="https://upload.jianshu.io/users/upload_avatars/3772457/ae220417a542.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96"></image>
+      <view class="content flex-sub">
+        <view class="text-gray">Runner_Yang</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-bar bg-white" bindtap="clickGit4">
+    <text class="margin-left-xl text-red">微信小程序之授权登录篇</text>
+  </view>
+</scroll-view>
+<view class="cu-bar bg-white tabbar border shop flex justify-center fixed-bottom">
+  <view class="bg-orange submit" bindtap="addComment" >访问列表</view>
+  <view class="bg-red submit" bindtap="order" >咨詢電話</view>
+</view>

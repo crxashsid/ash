@@ -1,0 +1,1404 @@
+{
+  "_id": "SC",
+  "question": [
+      {
+          "answer": "C",
+          "options": [
+              {
+                  "checked": false,
+                  "name": "动态结构和静态结构",
+                  "value": "A"
+              },
+              {
+                  "name": "顺序组织和链接组织",
+                  "value": "B",
+                  "checked": false
+              },
+              {
+                  "value": "C",
+                  "checked": false,
+                  "name": "线性结构和非线性结构 "
+              },
+              {
+                  "checked": false,
+                  "name": "基本类型和组合类型",
+                  "value": "D"
+              }
+          ],
+          "title": "从逻辑上可以把数据结构分成（）",
+          "help": "暂无",
+          "url": ""
+      },
+      {
+          "options": [
+              {
+                  "checked": false,
+                  "name": "都是先进先出",
+                  "value": "A"
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "都是先进后出"
+              },
+              {
+                  "checked": false,
+                  "name": "只允许在端点处插入和删除元素",
+                  "value": "C"
+              },
+              {
+                  "checked": false,
+                  "name": "没有共同点",
+                  "value": "D"
+              }
+          ],
+          "title": "栈和队列的一个共同点是（）",
+          "answer": "C",
+          "url": "",
+          "help": "暂无"
+      },
+      {
+          "answer": "C",
+          "options": [
+              {
+                  "name": "按层遍历",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "前序遍历",
+                  "value": "B"
+              },
+              {
+                  "checked": false,
+                  "name": "中序遍历",
+                  "value": "C"
+              },
+              {
+                  "checked": false,
+                  "name": "后序遍历",
+                  "value": "D"
+              }
+          ],
+          "title": "对二叉排序树（）可得到有序序列",
+          "url": "",
+          "help": "暫無"
+      },
+      {
+          "answer": "A",
+          "options": [
+              {
+                  "name": "“a”",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "{ABC}",
+                  "value": "B"
+              },
+              {
+                  "name": "‘abc\\0’",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "‘a’",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "下列数据中属于“字符串常量”的是（）",
+          "url": "",
+          "help": "正确答案是A。若干个字符构成字符串 在C语言中，用单引号标识字符；用双引号标识字符串 选项B，C，分别用{}和’’标识字符串 选项D，标识字符。"
+      },
+      {
+          "answer": "D",
+          "options": [
+              {
+                  "name": "数据依赖于程序",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "数据库系统",
+                  "value": "B"
+              },
+              {
+                  "name": "数据库管理系统",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "数据不依赖于程序",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "数据独立性是指(   )",
+          "url": "",
+          "help": "正确答案是D。数据独立性是数据库领域的一个常用术语，包括数据的物理独立性和数据的逻辑独立性。数据的物理独立性是指用户的应用程序与存储在磁盘上的数据库中的数据是相互独立的，也就是说，当数据的物理存储结构改变时，应用程序不用改变。数据的逻辑独立性是指用户的应用程序与数据库的逻辑结构是相互独立的，也就是说，数据的逻辑结构改变了，用户程序也可以不变。"
+      },
+      {
+          "answer": "C",
+          "options": [
+              {
+                  "name": "线性表",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "队列",
+                  "value": "B"
+              },
+              {
+                  "name": "栈",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "数组",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "递归程序可借助于 ()转化为非递归程序",
+          "url": "",
+          "help": "暂无"
+      },
+      {
+          "answer": "D",
+          "options": [
+              {
+                  "name": "abstract修饰符可修饰字段、方法和类",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "抽象方法的body部分必须用一对大括号{ }包住",
+                  "value": "B"
+              },
+              {
+                  "name": "声明抽象方法，大括号可有可无",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "声明抽象方法不可写出大括号",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "下列哪一种叙述是正确的（）",
+          "url": "",
+          "help": "正确答案是D。二维表中的“行”即关系数据模型中的“元组”，二维表中的“列”即关系数据模型中的“属性”。"
+      },
+      {
+          "answer": "C",
+          "options": [
+              {
+                  "name": "-a1",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "a[i]",
+                  "value": "B"
+              },
+              {
+                  "name": "a2_i ",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "int t",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "下列正确的标识符是（ ）",
+          "url": "",
+          "help": "正确答案是C。标识符的命名规则（1） 只能由字母、数字、下划线构成 （2）数字不能作为标识符的开头（3）关键字不能作为标识符。"
+      },
+      {
+          "answer": "C",
+          "options": [
+              {
+                  "name": "2.5",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "2",
+                  "value": "B"
+              },
+              {
+                  "name": "1",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "3",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "在C语言程序中，表达式5%2的结果是（ ）",
+          "url": "",
+          "help": "正确答案是C。%为求余运算符，该运算符只能对整型数据进行运算。且符号与被模数相同。"
+      },
+      {
+          "answer": "D",
+          "options": [
+              {
+                  "name": "接口和抽象类是同一回事",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "一个类只能实现一个接口",
+                  "value": "B"
+              },
+              {
+                  "name": "接口间不能有继承关系",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "实现一个接口必须实现接口的所有方法",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "关于接口哪个正确？()",
+          "url": "",
+          "help": "正确答案是D。A错，接口是一种规范机制，他作为系统与外部交互的窗口，它既规定了实现着必须向外提供哪些服务，也规定了调用者可以调用哪些服务，以及如何调用这些服务。抽象类是作为系统中多个子类的父类，体现的是一种模板设计。B错，一个类可以直接实现多个接口，通过实现多个接口可以弥补Java单继承的不足。C错，接口支持多继承，一个接口可以有多个直接父接口，与类继承相似，子接口扩展某个父接口，将会获得父接口里的所有抽象方法、常量。"
+      },
+      {
+          "answer": "A",
+          "options": [
+              {
+                  "name": "3",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "4",
+                  "value": "B"
+              },
+              {
+                  "name": "0",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "name": "1",
+                  "value": "D",
+                  "checked": false
+              }
+          ],
+          "title": "如果int a=3,b=4；则条件表达式\"a\u003cb? a:b\"的值是（）",
+          "url": "",
+          "help": "正确答案是A。a为3，b为4。a\u003cb表达式1成立，因此计算表达式2，并将表达式2的值即a中的值，并作为整个表达式的值，因此整个表达式的值为3。"
+      },
+      {
+          "answer": "A",
+          "help": "正确答案是A。java 中没有\u003c\u003e := 这种运算符，if else不算运算符。",
+          "options": [
+              {
+                  "checked": false,
+                  "name": "\u0026\u0026",
+                  "value": "A"
+              },
+              {
+                  "checked": false,
+                  "name": "\u003c\u003e",
+                  "value": "B"
+              },
+              {
+                  "checked": false,
+                  "name": "if",
+                  "value": "C"
+              },
+              {
+                  "checked": false,
+                  "name": ":=",
+                  "value": "D"
+              }
+          ],
+          "title": "下列运算符合法的是（）",
+          "url": ""
+      },
+      {
+          "answer": "A",
+          "help": "正确答案是A。形参可以看成方法中的局部变量。 传递的是对象引用。",
+          "options": [
+              {
+                  "checked": false,
+                  "name": "形式参数可被视为local variable",
+                  "value": "A"
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "形式参数可被字段修饰符修饰"
+              },
+              {
+                  "checked": false,
+                  "name": "形式参数为方法被调用时，真正被传递的参数",
+                  "value": "C"
+              },
+              {
+                  "checked": false,
+                  "name": "形式参数不可以是对象",
+                  "value": "D"
+              }
+          ],
+          "title": "下列语句正确的是（）",
+          "url": ""
+      },
+      {
+          "answer": "D",
+          "help": "正确答案是D。（1）相同数据类型的元素进行数学运算（+、-、*、/）得到结果还保持原数据类型。（2）不同数据类型的元素进行数学运算，先要统一数据类型，统一的标准是低精度类型转换为高精度的数据类型。",
+          "title": "下面(     )表达式的值为4",
+          "url": "",
+          "options": [
+              {
+                  "name": "11/3",
+                  "value": "A",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "11.0/3",
+                  "value": "B"
+              },
+              {
+                  "checked": false,
+                  "name": "(float)11/3 ",
+                  "value": "C"
+              },
+              {
+                  "checked": false,
+                  "name": "(int)(11.0/3+0.5)",
+                  "value": "D"
+              }
+          ]
+      },
+      {
+          "answer": "A",
+          "help": "正确答案是A。“(int)f“表示将f中的值强制类型转换为整型，即将13.8的小数部分舍掉，转换为13；然后计算13%3，结果为1，再将结果赋给变量n，因此n的值为1。",
+          "title": "若“int n; float f=13.8;”,则执行“n=(int)f%3”后，n的值是（）",
+          "url": "",
+          "options": [
+              {
+                  "checked": false,
+                  "name": "1",
+                  "value": "A"
+              },
+              {
+                  "checked": false,
+                  "name": "4",
+                  "value": "B"
+              },
+              {
+                  "checked": false,
+                  "name": "4.333333",
+                  "value": "C"
+              },
+              {
+                  "name": "4.6",
+                  "value": "D",
+                  "checked": false
+              }
+          ]
+      },
+      {
+          "title": "SQL语言中，删除一个表的命令是(   )",
+          "url": "",
+          "help": "正确答案是B。SQL语言中，建立一个表的命令是CREATE，对表进行修改的命令是ALTER，删除一个表的命令是DROP，另外还有表中数据的插入，删除，查询命令分别为INSERT，UPDATE和SELECT。",
+          "answer": "B",
+          "options": [
+              {
+                  "value": "A",
+                  "checked": false,
+                  "name": "DELETE "
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "DROP"
+              },
+              {
+                  "checked": false,
+                  "name": "CLEAR",
+                  "value": "C"
+              },
+              {
+                  "value": "D",
+                  "checked": false,
+                  "name": "REMOVE"
+              }
+          ]
+      },
+      {
+          "help": "正確答案是D。客观存在并且相互区别的事物称为实体。实体可以是具体的人、事、物，也可以是抽象的概念或联系。客观世界中，不同的事物是由事物所具有的特征加以区分的。在信息世界中，事物的特征被抽象为实体的属性，不同的实体，其属性也不同。因此，在信息世界中，实体是根据实体属性的不同加以区分的，实体的名字是赋予实体的称谓，属性的多少不能反映实体的本质特征。",
+          "title": "不同的实体是根据什么区分的？(   )",
+          "url": "",
+          "answer": "D",
+          "options": [
+              {
+                  "checked": false,
+                  "name": "所代表的对象",
+                  "value": "A"
+              },
+              {
+                  "checked": false,
+                  "name": "实体名字",
+                  "value": "B"
+              },
+              {
+                  "name": "属性多少",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "checked": false,
+                  "name": "属性的不同",
+                  "value": "D"
+              }
+          ]
+      },
+      {
+          "answer": "D",
+          "help": "正確答案是D。类型符是指数组中数组元素的类型；数组名要符合标识符命名规则；常量表达式是指数组的长度（数组中包含元素的个数），其值只能是整数，不可以是变量，而且从1开始计数。",
+          "options": [
+              {
+                  "checked": false,
+                  "name": "char a（10）;",
+                  "value": "A"
+              },
+              {
+                  "checked": false,
+                  "name": "int a[]；",
+                  "value": "B"
+              },
+              {
+                  "name": "int k＝5，a[k]；",
+                  "value": "C",
+                  "checked": false
+              },
+              {
+                  "value": "D",
+                  "checked": false,
+                  "name": "char  a[3]={‘a’,’b’,’c’};"
+              }
+          ],
+          "title": "以下对一维数组a的正确说明是：（ ）",
+          "url": ""
+      },
+      {
+          "title": "以下能对一维数组a进行初始化的语句是:（）",
+          "answer": "C",
+          "help": "正确答案是C。选项B,D，常量表达式只能放在中括号 [ ]中；选项A，数组可以看做是若干个相同数据类型元素的有序集合，因此以集合的形式对其初始化，使用{ }对其初始化，选项A用了（）。",
+          "url": "",
+          "options": [
+              {
+                  "checked": false,
+                  "name": "int a[5]=(0,1,2,3,4)",
+                  "value": "A"
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "int a(5)={}"
+              },
+              {
+                  "checked": false,
+                  "name": "int a[3]={0,1,2}",
+                  "value": "C"
+              },
+              {
+                  "name": "int a{5}={10*1}",
+                  "value": "D",
+                  "checked": false
+              }
+          ]
+      },
+      {
+          "answer": "C",
+          "help": "正確答案是C。选项A,B，都省略了列数 选项D，不符合二维数组定义的一般形式，行、列常量表达式应该放在不同的[]中。",
+          "url": "",
+          "title": "对二维数组的正确定义是（）",
+          "options": [
+              {
+                  "value": "A",
+                  "name": "int a[ ] [ ]={1,2,3,4,5,6};",
+                  "checked": false
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "int a[2] [ ]={1,2,3,4,5,6};"
+              },
+              {
+                  "checked": false,
+                  "name": "int a[ ] [3]={1,2,3,4,5,6};",
+                  "value": "C"
+              },
+              {
+                  "name": "int a[2,3]={1,2,3,4,5,6};",
+                  "value": "D",
+                  "checked": false
+              }
+          ]
+      },
+      {
+          "answer": "B",
+          "help": "暂无",
+          "url": "",
+          "title": "下列语句哪一个正确（）",
+          "options": [
+              {
+                  "value": "A",
+                  "name": "Java程序经编译后会产生machine code",
+                  "checked": false
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "Java程序经编译后会产生byte code"
+              },
+              {
+                  "checked": false,
+                  "name": "Java程序经编译后会产生DLL",
+                  "value": "C"
+              },
+              {
+                  "name": "以上都不正确",
+                  "value": "D",
+                  "checked": false
+              }
+          ]   
+      },
+      {
+          "answer": "C",
+          "help": "暂无",
+          "url": "",
+          "title": "以下说法中正确的是（）",
+          "options": [
+              {
+                  "value": "A",
+                  "name": "C语言程序总是从第一个定义的函数开始执行",
+                  "checked": false
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "在C语言程序中，要调用的函数必须在main( )函数中定义"
+              },
+              {
+                  "checked": false,
+                  "name": "C语言程序总是从main( )函数开始执行",
+                  "value": "C"
+              },
+              {
+                  "name": "C语言程序中的main( )函数必须放在程序的开始部分",
+                  "value": "D",
+                  "checked": false
+              }
+          ]  
+      },
+      {
+        "answer": "B",
+        "help": "暂无",
+        "url": "",
+        "title": "下列关于C语言的说法错误的是（）",
+        "options": [
+            {
+                "value": "A",
+                "name": "C程序的工作过程是编辑、编译、连接、运行",
+                "checked": false
+            },
+            {
+                "value": "B",
+                "checked": false,
+                "name": "C语言不区分大小写"
+            },
+            {
+                "checked": false,
+                "name": "C程序的三种基本结构是顺序、选择、循环",
+                "value": "C"
+            },
+            {
+                "name": "C程序从main函数开始执行",
+                "value": "D",
+                "checked": false
+            }
+        ]
+},
+{
+  "answer": "A",
+  "help": "暂无",
+  "url": "",
+  "title": "（）是构成C语言程序的基本单位",
+  "options": [
+      {
+          "value": "A",
+          "name": "函数",
+          "checked": false
+      },
+      {
+          "value": "B",
+          "checked": false,
+          "name": "子程序"
+      },
+      {
+          "checked": false,
+          "name": "过程",
+          "value": "C"
+      },
+      {
+          "name": "子例程",
+          "value": "D",
+          "checked": false
+      }
+  ]
+},
+{
+  "answer": "B",
+  "help": "暂无",
+  "url": "",
+  "title": "Java是从（）语言改进重新设计",
+  "options": [
+      {
+          "value": "A",
+          "name": "Ada",
+          "checked": false
+      },
+      {
+          "value": "B",
+          "checked": false,
+          "name": "C++"
+      },
+      {
+          "checked": false,
+          "name": "Pasacal",
+          "value": "C"
+      },
+      {
+          "name": "BASIC",
+          "value": "D",
+          "checked": false
+      }
+  ]
+},
+{
+  "answer": "C",
+  "help": "暂无",
+  "url": "",
+  "title": "以下说法正确的是()",
+  "options": [
+      {
+          "value": "A",
+          "name": "class中的constructor不可省略",
+          "checked": false
+      },
+      {
+          "value": "B",
+          "checked": false,
+          "name": "constructor必须与class同名，但方法不能与class同名"
+      },
+      {
+          "checked": false,
+          "name": "constructor在一个对象被new时执行",
+          "value": "C"
+      },
+      {
+          "name": "一个class只能定义一个constructor",
+          "value": "D",
+          "checked": false
+      }
+  ]
+},
+{
+  "answer": "A",
+  "help": "暂无",
+  "url": "",
+  "title": "下列哪种不是Android的存储方式？()",
+  "options": [
+      {
+          "value": "A",
+          "name": "File",
+          "checked": false
+      },
+      {
+          "value": "B",
+          "checked": false,
+          "name": "SQLite"
+      },
+      {
+          "checked": false,
+          "name": "SharedPreferences",
+          "value": "C"
+      },
+      {
+          "name": "ContentProvider",
+          "value": "D",
+          "checked": false
+      }
+  ]
+},
+{
+  "answer": "A",
+  "help": "暂无",
+  "url": "",
+  "title": "关于Handler的说法不正确的是 ()",
+  "options": [
+      {
+          "value": "A",
+          "name": "它实现不同进程间通信的一种机制",
+          "checked": false
+      },
+      {
+          "value": "B",
+          "checked": false,
+          "name": "它采用队列的方式来存储 Message"
+      },
+      {
+          "checked": false,
+          "name": "Handler既是消息的发送者也是消息的处理者",
+          "value": "C"
+      },
+      {
+          "name": "它实现不同线程间通信的一种机制",
+          "value": "D",
+          "checked": false
+      }
+  ]
+},
+{
+  "answer": "C",
+  "help": "暂无",
+  "url": "",
+  "title": "关于RelativeLayout描述正确的是( )",
+  "options": [
+      {
+          "value": "A",
+          "name": "该布局为绝对布局，可以自定义控件的x,y 的位置",
+          "checked": false
+      },
+      {
+          "value": "B",
+          "checked": false,
+          "name": "该布局为切换帧布局，可实现标签切换的功能"
+      },
+      {
+          "checked": false,
+          "name": "该布局为相对布局，其中控件的位置都是相对位置",
+          "value": "C"
+      },
+      {
+          "name": "该布局为表格布局，需要配合TableRow一起使用",
+          "value": "D",
+          "checked": false
+      }
+  ]
+    },
+    {
+      "answer": "C",
+      "help": "暂无",
+      "url": "",
+      "title": "Android中下列属于Intent的作用的是()",
+      "options": [
+          {
+              "value": "A",
+              "name": "实现应用程序间的数据共享（ContentProvider）",
+              "checked": false
+          },
+          {
+              "value": "B",
+              "checked": false,
+              "name": "是一段长的生命周期，没有用户界面的程序，可以保持在后台运行，而不会因为切换页面而消失   （service）"
+          },
+          {
+              "checked": false,
+              "name": "可以实现界面间的切换，可以包含动作和动作数据，是连接4大组件的纽带",
+              "value": "C"
+          },
+          {
+              "name": "处理一个应用程序整体性的工作",
+              "value": "D",
+              "checked": false
+          }
+      ]
+        },
+        {
+          "answer": "C",
+          "help": "正确答案是C。对某一类对象的属性和功能的抽象便得到了类，而一个对象便是某一个类的具体化或实例化。",
+          "url": "",
+          "title": "类与对象的关系是()",
+          "options": [
+              {
+                  "value": "A",
+                  "name": "对象是类的子类",
+                  "checked": false
+              },
+              {
+                  "value": "B",
+                  "checked": false,
+                  "name": "对象是类的抽象"
+              },
+              {
+                  "checked": false,
+                  "name": "类是对象的抽象",
+                  "value": "C"
+              },
+              {
+                  "name": "类是对象的具体实例",
+                  "value": "D",
+                  "checked": false
+              }
+          ]
+            },
+            {
+              "answer": "D",
+              "help": "正确答案是D。“//”是单行注释符，“/*........*/”是多行注释符，“/**.......*/”是文档注释符。D选项为非法符号。",
+              "url": "",
+              "title": "Java语言中可用的注释符，错误的是()",
+              "options": [
+                  {
+                      "value": "A",
+                      "name": "//",
+                      "checked": false
+                  },
+                  {
+                      "value": "B",
+                      "checked": false,
+                      "name": "/*...*/"
+                  },
+                  {
+                      "checked": false,
+                      "name": "/**...*/",
+                      "value": "C"
+                  },
+                  {
+                      "name": "/*",
+                      "value": "D",
+                      "checked": false
+                  }
+              ]
+                },
+                {
+                  "answer": "A",
+                  "help": "正确答案是A。方法中的作用域可以嵌套，但嵌套的作用域中不能出现同名变量否则会出现命名冲突。",
+                  "url": "",
+                  "title": "关于变量作用域的描述，错误的是()",
+                  "options": [
+                      {
+                          "value": "A",
+                          "name": "在方法中作用域可嵌套，在嵌套的作用域中可以定义同名变量",
+                          "checked": false
+                      },
+                      {
+                          "value": "B",
+                          "checked": false,
+                          "name": "在类中定义的变量的作用域在该类中的方法内是可以使用的"
+                      },
+                      {
+                          "checked": false,
+                          "name": "在方法中定义的变量的作用域仅在该方法内",
+                          "value": "C"
+                      },
+                      {
+                          "name": "在某个作用域定义的变量，仅在该作用域内是可见的，而在该作用域外是不可见的",
+                          "value": "D",
+                          "checked": false
+                      }
+                  ]
+                    },
+                    {
+                      "answer": "C",
+                      "help": "正确答案是C。java是一门单继承语言，虽然一个类可以实现多个接口，在表面上表现出“多继承”的样子，但那并不是真正意义上的“多继承”，只能称作一个类实现了多个接口。",
+                      "url": "",
+                      "title": "关于Java语言特性的描述中，错误的是()",
+                      "options": [
+                          {
+                              "value": "A",
+                              "name": "支持多线程操作",
+                              "checked": false
+                          },
+                          {
+                              "value": "B",
+                              "checked": false,
+                              "name": "JAVA程序与平台无关"
+                          },
+                          {
+                              "checked": false,
+                              "name": "支持单继承和多继承",
+                              "value": "C"
+                          },
+                          {
+                              "name": "JAVA程序可以直接访问Internet上的对象",
+                              "value": "D",
+                              "checked": false
+                          }
+                      ]
+                        },
+                        {
+                          "answer": "B",
+                          "help": "正确答案是B。A错，一个类只能有一个父类；C错，父类的私有方法就不可被子类访问并使用；D错，继承关系是对父类功能的扩展，根据实际情况完全可以只扩展1个功能，并不意味着成员方法比父类多。",
+                          "url": "",
+                          "title": "关于类的继承的描述，正确的是()",
+                          "options": [
+                              {
+                                  "value": "A",
+                                  "name": "一个类可以继承多个父类",
+                                  "checked": false
+                              },
+                              {
+                                  "value": "B",
+                                  "checked": false,
+                                  "name": "一个类可以具有多个子类"
+                              },
+                              {
+                                  "checked": false,
+                                  "name": "子类可以使用父类的所有方法",
+                                  "value": "C"
+                              },
+                              {
+                                  "name": "子类一定比父类有更多的成员方法",
+                                  "value": "D",
+                                  "checked": false
+                              }
+                          ]
+                            },
+                            {
+                              "answer": "D",
+                              "help": "正确答案是D。子类对从父类继承来的成员只有重写或使用的权限，并不能修改父类成员的访问权限。",
+                              "url": "",
+                              "title": "关于类的继承性的描述，错误的是()",
+                              "options": [
+                                  {
+                                      "value": "A",
+                                      "name": "继承是在已有的基础上生成新类的一种方法",
+                                      "checked": false
+                                  },
+                                  {
+                                      "value": "B",
+                                      "checked": false,
+                                      "name": "子类继承父类的所有成员"
+                                  },
+                                  {
+                                      "checked": false,
+                                      "name": "Java语言要求一个子类只有一个父类",
+                                      "value": "C"
+                                  },
+                                  {
+                                      "name": "父类中成员的访问权限在子类中将被改变",
+                                      "value": "D",
+                                      "checked": false
+                                  }
+                              ]
+                                },
+                                {
+                                  "answer": "A",
+                                  "help": "正确答案是A。方法覆盖即重写，该现象只能出现在子类继承父类后，子类重写父类方法时发生。",
+                                  "url": "",
+                                  "title": "对于方法覆盖的说法不正确的有（）",
+                                  "options": [
+                                      {
+                                          "value": "A",
+                                          "name": "方法覆盖发生在同一类中",
+                                          "checked": false
+                                      },
+                                      {
+                                          "value": "B",
+                                          "checked": false,
+                                          "name": "方法的覆盖发生在子类型中"
+                                      },
+                                      {
+                                          "checked": false,
+                                          "name": "参数一定要一样",
+                                          "value": "C"
+                                      },
+                                      {
+                                          "name": "方法名一定要一样",
+                                          "value": "D",
+                                          "checked": false
+                                      }
+                                  ]
+                                    },   
+                                    {
+                                        "answer": "B",
+                                        "help": "正确答案是B。比如数字2，它是整型类对象实例，确实是一个对象，但它却无法被继承，故没有继承性。因此，对象不都必须有继承性。",
+                                        "url": "",
+                                        "title": "下面对对象概念描述错误的是（）",
+                                        "options": [
+                                            {
+                                                "value": "A",
+                                                "name": "操作是对象的动态属性",
+                                                "checked": false
+                                            },
+                                            {
+                                                "value": "B",
+                                                "checked": false,
+                                                "name": "任何对象都必须有继承性"
+                                            },
+                                            {
+                                                "checked": false,
+                                                "name": "对象间的通讯靠消息传递",
+                                                "value": "C"
+                                            },
+                                            {
+                                                "name": "对象是属性和方法的封装体",
+                                                "value": "D",
+                                                "checked": false
+                                            }
+                                        ]
+                                          },
+                                          {
+                                            "answer": "B",
+                                            "help": "正确答案是B。类中的成员在类中表现出什么样的特征就相当于类的对应成员。变量在类中只可能做属性。",
+                                            "url": "",
+                                            "title": "对象的特征在类中表示为变量，称为类的（）",
+                                            "options": [
+                                                {
+                                                    "value": "A",
+                                                    "name": "对象",
+                                                    "checked": false
+                                                },
+                                                {
+                                                    "value": "B",
+                                                    "checked": false,
+                                                    "name": "属性"
+                                                },
+                                                {
+                                                    "checked": false,
+                                                    "name": "方法",
+                                                    "value": "C"
+                                                },
+                                                {
+                                                    "name": "数据类型",
+                                                    "value": "D",
+                                                    "checked": false
+                                                }
+                                            ]
+                                              },
+                                              {
+                                                "answer": "D",
+                                                "help": "正确答案是D。此处的覆盖表示重写，重写发生在继承关系中即父类与子类之间。函数名相同,函数的参数列表不同(包括参数个数和参数类型)，返回类型可同可不同的现象叫重载。",
+                                                "url": "",
+                                                "title": "覆盖与重载的关系是（）",
+                                                "options": [
+                                                    {
+                                                        "value": "A",
+                                                        "name": "覆盖方法可以不同名，而重载方法必须同名",
+                                                        "checked": false
+                                                    },
+                                                    {
+                                                        "value": "B",
+                                                        "checked": false,
+                                                        "name": "覆盖与重载是同一回事"
+                                                    },
+                                                    {
+                                                        "checked": false,
+                                                        "name": "final修饰的方法可以被覆盖，但不能被重载",
+                                                        "value": "C"
+                                                    },
+                                                    {
+                                                        "name": "覆盖只有发生在父类与子类之间，而重载可以发生在同一个类中",
+                                                        "value": "D",
+                                                        "checked": false
+                                                    }
+                                                ]
+                                                  },
+                                                  {
+                                                    "answer": "D",
+                                                    "help": "正确答案是D。一个源文件可以包含多个类但只能包含一个公共类，故B，C错；一个源文件可以被多个程序使用但不能同时被多个程序使用，故A错。",
+                                                    "url": "",
+                                                    "title": "下列说法哪个正确？（）",
+                                                    "options": [
+                                                        {
+                                                            "value": "A",
+                                                            "name": "一个源文件只能供一个程序使用",
+                                                            "checked": false
+                                                        },
+                                                        {
+                                                            "value": "B",
+                                                            "checked": false,
+                                                            "name": "一个源文件中只能有一个类"
+                                                        },
+                                                        {
+                                                            "checked": false,
+                                                            "name": "一个源文件中可以有多个公共类",
+                                                            "value": "C"
+                                                        },
+                                                        {
+                                                            "name": "一个程序可以包含多个源文件",
+                                                            "value": "D",
+                                                            "checked": false
+                                                        }
+                                                    ]
+                                                      },   
+                                                      {
+                                                        "answer": "A",
+                                                        "help": "正确答案是A。char类型可以转换为int类型，反之不行，故B错；double类型不会自动转为int类型，会丢失精度。C错。D项结果一定是String型。",
+                                                        "url": "",
+                                                        "title": "关于自动类型转换说法正确的是（）",
+                                                        "options": [
+                                                            {
+                                                                "value": "A",
+                                                                "name": "基本数据类型和String相加结果一定是字符串型",
+                                                                "checked": false
+                                                            },
+                                                            {
+                                                                "value": "B",
+                                                                "checked": false,
+                                                                "name": "char类型和int类型相加结果一定是字符"
+                                                            },
+                                                            {
+                                                                "checked": false,
+                                                                "name": "double类型可以自动转换为int",
+                                                                "value": "C"
+                                                            },
+                                                            {
+                                                                "name": "char + int + double +''结果一定是double",
+                                                                "value": "D",
+                                                                "checked": false
+                                                            }
+                                                        ]
+                                                          },
+                                                          {
+                                                            "answer": "B",
+                                                            "help": "正确答案是B。键不可以重复。",
+                                                            "url": "",
+                                                            "title": "下面说法不正确的是（）",
+                                                            "options": [
+                                                                {
+                                                                    "value": "A",
+                                                                    "name": "列表(List)、集合(Set)和映射(Map)都是java.util包中的接口",
+                                                                    "checked": false
+                                                                },
+                                                                {
+                                                                    "value": "B",
+                                                                    "checked": false,
+                                                                    "name": "Map接口将键映射到值，键可以重复，但每个键最多只能映射一个值"
+                                                                },
+                                                                {
+                                                                    "checked": false,
+                                                                    "name": "Set接口是不包含重复元素的集合",
+                                                                    "value": "C"
+                                                                },
+                                                                {
+                                                                    "name": "List接口是可以包含重复元素的有序集合",
+                                                                    "value": "D",
+                                                                    "checked": false
+                                                                }
+                                                            ]
+                                                              },
+                                                              {
+                                                                "answer": "C",
+                                                                "help": "正确答案是C。根据实际情况，调用方法的形式可以不同。",
+                                                                "url": "",
+                                                                "title": "方法的调用,正确的是（）",
+                                                                "options": [
+                                                                    {
+                                                                        "value": "A",
+                                                                        "name": "必须是一条完整的语句",
+                                                                        "checked": false
+                                                                    },
+                                                                    {
+                                                                        "value": "B",
+                                                                        "checked": false,
+                                                                        "name": "只能是一个表达式"
+                                                                    },
+                                                                    {
+                                                                        "checked": false,
+                                                                        "name": "可能是语句，也可能是表达式",
+                                                                        "value": "C"
+                                                                    },
+                                                                    {
+                                                                        "name": "必须提供实际参数",
+                                                                        "value": "D",
+                                                                        "checked": false
+                                                                    }
+                                                                ]
+                                                                  },  
+                                                                  {
+                                                                    "answer": "C",
+                                                                    "help": "暂无",
+                                                                    "url": "",
+                                                                    "title": "树最适合用来表示（）",
+                                                                    "options": [
+                                                                        {
+                                                                            "value": "A",
+                                                                            "name": "有序数据元素",
+                                                                            "checked": false
+                                                                        },
+                                                                        {
+                                                                            "value": "B",
+                                                                            "checked": false,
+                                                                            "name": "无序数据元素"
+                                                                        },
+                                                                        {
+                                                                            "checked": false,
+                                                                            "name": "元素之间具有分支层次关系的数据",
+                                                                            "value": "C"
+                                                                        },
+                                                                        {
+                                                                            "name": "元素之间无联系的数据",
+                                                                            "value": "D",
+                                                                            "checked": false
+                                                                        }
+                                                                    ]
+                                                                      },
+                                                                      {
+                                                                        "answer": "D",
+                                                                        "help": "暂无",
+                                                                        "url": "",
+                                                                        "title": "哪一个是非线性结构（）",
+                                                                        "options": [
+                                                                            {
+                                                                                "value": "A",
+                                                                                "name": "隊列",
+                                                                                "checked": false
+                                                                            },
+                                                                            {
+                                                                                "value": "B",
+                                                                                "checked": false,
+                                                                                "name": "栈"
+                                                                            },
+                                                                            {
+                                                                                "checked": false,
+                                                                                "name": "綫性表",
+                                                                                "value": "C"
+                                                                            },
+                                                                            {
+                                                                                "name": "二叉樹",
+                                                                                "value": "D",
+                                                                                "checked": false
+                                                                            }
+                                                                        ]
+                                                                          },
+                                                                          {
+                                                                            "answer": "D",
+                                                                            "help": "暂无",
+                                                                            "url": "",
+                                                                            "title": "AOV网是一种（）",
+                                                                            "options": [
+                                                                                {
+                                                                                    "value": "A",
+                                                                                    "name": "有向图",
+                                                                                    "checked": false
+                                                                                },
+                                                                                {
+                                                                                    "value": "B",
+                                                                                    "checked": false,
+                                                                                    "name": "無向圖"
+                                                                                },
+                                                                                {
+                                                                                    "checked": false,
+                                                                                    "name": "无向无环图",
+                                                                                    "value": "C"
+                                                                                },
+                                                                                {
+                                                                                    "name": "有向无环图",
+                                                                                    "value": "D",
+                                                                                    "checked": false
+                                                                                }
+                                                                            ]
+                                                                              },
+                                                                              {
+                                                                                "answer": "A",
+                                                                                "help": "暂无",
+                                                                                "url": "",
+                                                                                "title": "属于不稳定的排序方法是（）",
+                                                                                "options": [
+                                                                                    {
+                                                                                        "value": "A",
+                                                                                        "name": "直接插入排序法",
+                                                                                        "checked": false
+                                                                                    },
+                                                                                    {
+                                                                                        "value": "B",
+                                                                                        "checked": false,
+                                                                                        "name": "冒泡排序法"
+                                                                                    },
+                                                                                    {
+                                                                                        "checked": false,
+                                                                                        "name": "基数排序法",
+                                                                                        "value": "C"
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "归并排序法 ",
+                                                                                        "value": "D",
+                                                                                        "checked": false
+                                                                                    }
+                                                                                ]
+                                                                                  },                                {
+                                                                                    "answer": "A",
+                                                                                    "help": "暂无",
+                                                                                    "url": "",
+                                                                                    "title": "图的深度优先遍历类似于二叉树的（）",
+                                                                                    "options": [
+                                                                                        {
+                                                                                            "value": "A",
+                                                                                            "name": "先序遍历",
+                                                                                            "checked": false
+                                                                                        },
+                                                                                        {
+                                                                                            "value": "B",
+                                                                                            "checked": false,
+                                                                                            "name": "中序遍历"
+                                                                                        },
+                                                                                        {
+                                                                                            "checked": false,
+                                                                                            "name": "后序遍历",
+                                                                                            "value": "C"
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "层次遍历",
+                                                                                            "value": "D",
+                                                                                            "checked": false
+                                                                                        }
+                                                                                    ]
+                                                                                      },
+                                                                                      {
+                                                                                        "answer": "A",
+                                                                                        "help": "暂无",
+                                                                                        "url": "",
+                                                                                        "title": "向堆中插入一个元素的时间复杂度为（）",
+                                                                                        "options": [
+                                                                                            {
+                                                                                                "value": "A",
+                                                                                                "name": "O(log2n)",
+                                                                                                "checked": false
+                                                                                            },
+                                                                                            {
+                                                                                                "value": "B",
+                                                                                                "checked": false,
+                                                                                                "name": "O(n)"
+                                                                                            },
+                                                                                            {
+                                                                                                "checked": false,
+                                                                                                "name": "O(1)",
+                                                                                                "value": "C"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "O(nlog2n)",
+                                                                                                "value": "D",
+                                                                                                "checked": false
+                                                                                            }
+                                                                                        ]
+                                                                                          }          
+  ]
+}

@@ -1,0 +1,33 @@
+<cu-custom bgColor="bg-gradual-red" isCustom="{{true}}">
+  <view slot="content">教师</view>
+</cu-custom>
+<view wx:if='{{score >= 60}}'>
+  <view class="cu-card case card" bindtap="choosetech">
+    <view class="cu-item shadow">
+      <view class="image">
+        <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576674231293&di=bde349c1cb78f1cb8be4548e6db075fa&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3Dd9e0a7b76959252da3171d0c049a032c%2Fbe20e30b19d8bc3eb12c43678b8ba61ea9d3459d.jpg" mode="widthFix"></image>
+        <view class="cu-tag bg-red">名师</view>
+        <view class="cu-bar bg-shadeBottom">
+          <text class="text-cut">于生活中挣扎的人，不想被身旁的虚伪所同化。</text>
+        </view>
+      </view>
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <image class="cu-avatar round lg" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576674327259&di=91122df606b75f0d4f7a905e996c4afe&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F46%2F21%2F58156b51cfb57_610.jpg"></image>
+          <view class="content flex-sub">
+            <view class="text-gray">郑志娴</view>
+            <view class="text-gray text-sm flex justify-between">
+              <!-- {{item.allinfo.status}} -->
+              To View
+              <view class="text-gray text-sm">
+                <text class="cuIcon-favorfill margin-lr-xs"></text>{{item.stars}}
+                <text class="cuIcon-messagefill margin-lr-xs"></text>{{item.comment.length}}
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:else></view>
